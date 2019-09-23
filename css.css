@@ -1,0 +1,118 @@
+.nome {
+font-size: 23px;
+
+}
+.compras{
+background-color:#F37417;
+border: 1;
+font-family: Agency FB;
+font-size: 23;
+border-color: black;
+
+}
+
+input:hover {
+opacity:0.7;}
+
+.imgmostruario {    
+
+width: 250px;
+height: 300px;
+margin-left: 30px;
+margin-top: 30px;
+
+}
+
+
+body {
+background-color: white;
+font-family: Agency FB;
+}
+
+
+#rodape {
+
+background-color: black;
+margin-top: 115%;
+height: 43%;
+width: 100%;
+left:0;
+position:absolute;
+
+}
+
+
+#banner {
+margin-top: 10px;
+left: 0;
+position: fixed;
+opacity:0.5;
+background-color: white;
+z-index: 8;
+}
+
+
+#centro {
+margin-top: 3.5%;
+height: 43%;
+width: 100%;
+background-image: url(test.jpg);
+background-color: #F37417;
+z-index: 7;
+position:absolute;
+left: 0;
+}
+
+#menu2 {
+box-shadow: 1px 1px 5px #888888;
+position: absolute;
+top:79px;
+left: 0;
+background-color: white;
+z-index: 8;
+height: 47px;
+width: 100%;
+text-decoration: none;
+}
+
+
+#menu {
+position: fixed;
+top:0;
+left: 0;
+background-color: black;
+z-index: 10;
+height: 75px;
+width: 100%;
+text-decoration: none;
+}
+
+
+
+
+
+
+a {
+text-decoration: none;
+font-family: DengXian;
+font-size: 20px;
+color: lightgrey;
+}
+
+li {
+padding:0px;
+margin:0px;
+list-style:none;
+}
+
+.mostruario {
+position:absolute; 
+box-shadow: 5px 0px 1px #888888; 
+background-color:lightgrey;
+width: 310px; 
+height: 400px;
+
+}
+
+#camisetas:hover { opacity: 0.8; }
+#pelucias:hover { opacity: 0.8; }

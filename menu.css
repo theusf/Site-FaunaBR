@@ -1,0 +1,120 @@
+
+
+
+
+*{margin: 0; padding: 0;}
+
+	
+	ul li {
+	position: relative;
+	}
+	
+
+
+
+	
+	li ul {
+	position: absolute;
+	left: 149px;
+	top: 0;
+	display: none;
+	}
+	
+	
+	ul li a {
+	display: block;
+	text-decoration: none;
+	color:white ;
+	background: black;
+	padding: 5px;
+	/* border: 1px solid #F37417;  \*/
+		font-family: Agency FB;
+			font-size: 25px;
+
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html ul li { float: left; }
+* html ul li a { height: 1%; }
+/* End */
+
+ ul li a:hover{
+	
+	font-weight: bold;
+	background: #F37417; 
+	color: white;
+ }
+
+li:hover ul { display: block; }
+
+.final {
+font-size: 20px;
+color:orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+.menuG ul li { display: inline; }
+ul.menuG, .menuG li, .menuG a{ margin:0; padding:0; list-style:none; text-decoration:none;}
+ul.menuG ul{ position:absolute; display:none; ;}
+ 
+/* Configurações nivel 1*/
+ul.menuG{ float:left; font-family:Verdana, Geneva, sans-serif; font-size:15px; border-radius:5px; padding:0 5px;}
+.menuG li{ float:left; width:auto; position:relative;}
+.menuG li a{ display:block; padding:0 20px; line-height:45px; height:45px; float:left; transition:all 0.1s linear; }
+ 
+/* Configurações nivel 2*/
+.menuG li:hover > ul.submenu-1{ display:block; top:45px; left:0; padding:5px; width:200px; border-radius:0 0 5px 5px;   }
+.menuG ul.submenu-1 a{  width:160px; padding:0 20px; border-radius:5px;  }
+ 
+/* Configurações nivel 2*/
+.menuG li:hover > ul.submenu-2{ display:block; top:0; left:195px; padding:5px; width:200px;  border-radius: 0 5px 5px 5px; }
+.menuG ul.submenu-2 a{  width:160px; padding:0 20px; border-radius:5px; }
+ 
+/* Configurações nivel 3*/
+.menuG li:hover > ul.submenu-3{ display:block; top:0; left:195px; padding:5px; width:200px;  border-radius: 0 5px 5px 5px; }
+.menuG ul.submenu-3 a{  width:160px; padding:0 20px; border-radius:5px; }
+ 
+ 
+/*Configurações de cores*/
+ 
+/*nivel 1*/
+.menuG{background:white; z-index:6;}
+.menuG a{ color:white;
+}
+.menuG li:hover > a{ background:#535353;  color:#fff;}
+ 
+/*nivel 2*/
+.submenu-1{ background:#535353;}
+.submenu-1 a{color:#fff;}
+.submenu-1 li:hover > a{ background:#535353; }
+ 
+/*nivel 3*/
+.submenu-2{ background:#535353;}
+.submenu-2 a{color:#fff;}
+.submenu-2 li:hover > a{ background:#535353; }
+ 
+/*nivel 3*/
+.submenu-3{ background:#535353;}
+.submenu-3 a{color:#fff;}
+.submenu-3 li:hover > a{ background:#535353; }
+
+
+
+.MM  {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 200px;
+	font-size: 900px;
+	font-family: Agency FB;
+	font-size: 500px;
+	}
